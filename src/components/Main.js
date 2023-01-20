@@ -49,8 +49,9 @@ export default function Main() {
           </Typography>
           <Typography
             variant="p"
-            fontSize="25px"
+            fontSize="20px"
             align="center"
+            letterSpacing="1px"
             color="text.secondary"
             paragraph
           >
