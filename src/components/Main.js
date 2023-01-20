@@ -54,7 +54,7 @@ export default function Main() {
             color="text.secondary"
             paragraph
           >
-            Setiap muslim dapat membaca AlQuran dimanapun dan kapanpun.
+            Setiap muslim dapat membaca Al-Quran dimanapun dan kapanpun.
           </Typography>
         </Container>
       </Box>

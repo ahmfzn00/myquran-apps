@@ -14,7 +14,7 @@ export default function Navbar() {
             color="inherit"
             noWrap
           >
-            Membaca Quran secara mudah
+            Membaca Al-Quran dengan mudah
           </Typography>
         </Toolbar>
       </AppBar>
