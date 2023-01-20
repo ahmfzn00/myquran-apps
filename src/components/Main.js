@@ -23,6 +23,10 @@ export default function Main() {
 
   return (
     <>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+        rel="stylesheet"
+      />
       <Box
         sx={{
           bgcolor: "background.paper",
@@ -32,9 +36,12 @@ export default function Main() {
       >
         <Container maxWidth="sm">
           <Typography
-            component="h2"
+            component="h3"
             variant="h3"
+            fontFamily="comfortaa"
             align="center"
+            letterSpacing="1px"
+            fontWeight="700"
             color="text.success"
             gutterBottom
           >
@@ -87,10 +94,10 @@ export default function Main() {
                         p="5px"
                         bgcolor="green"
                         borderRadius="5px"
-                        fontSize="8px"
+                        fontSize="7px"
                         letterSpacing="1px"
                       >
-                        {data.tempat_turun}
+                        {data.tempat_turun.toUpperCase()}
                       </Typography>
                       <Typography
                         marginLeft="5px"
@@ -98,10 +105,10 @@ export default function Main() {
                         color="white"
                         bgcolor="teal"
                         borderRadius="5px"
-                        fontSize="8px"
+                        fontSize="7px"
                         letterSpacing="1px"
                       >
-                        {data.arti}
+                        {data.arti.toUpperCase()}
                       </Typography>
                     </Stack>
                   </CardContent>
